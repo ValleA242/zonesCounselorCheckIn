@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zones Check In</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <h1>Counseling Check In</h1>
+    <form action="">
+        <label for="fname">First Name:</label>
+        <input type="text" id="f-name" name="fname" placeholder="Enter First Name"><br><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" id="l-name" placeholder="Enter Last Name"><br><br>
+        <label for="grade">What grade are you in:</label>
+        <select name="grade" id="grade-drop">
+            <option value="0">--Select Grade--</option>
+            <option value="0">Kindergarten</option>
+            <option value="1">1st Grade</option>
+            <option value="2">2nd Grade</option>
+            <option value="3">3rd Grade</option>
+            <option value="4">4th Grade</option>
+            <option value="5">5th Grade</option> 
+        </select> <br><br>
+        <label for="date-time">Date & Time</label>
+        <input type="datetime-local" id="time-met"><br><br>
+        <label for="zone">What zone are you in right now?</label>
+        <select name="zone" id="zone-drop">
+            <option value="0">--Select Zone--</option>
+            <option value="0">Blue</option>
+            <option value="1">Green</option>
+            <option value="2">Red</option>
+            <option value="3">Yellow</option>
+        </select> <br><br>
+        <button>Check In</button>
+    </form>
+    <section class="zones">
+        <div class="blue-zone zone-box">
+            <img src="assets/img/Sadness.png" alt="Are you feeling tired, sick, bored, or sad?">
+        </div>
+        <div class="green-zone zone-box">
+
+        </div>
+        <div class="red-zone zone-box">
+
+        </div>
+        <div class="yellow-zone zone-box">
+
+        </div>
+    </section>
+
+    <script src="../Zones Of Regulation/assets/script.js"></script>
+</body>
+</html>

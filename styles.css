@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+.zones {
+    margin: 2%;
+}
+
+.zone-box {
+    width: 20%;
+}
+
+img {
+    width: 100%;
+}
