@@ -8,8 +8,23 @@
     <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
-    <h1>Counseling Check In</h1>
-    <form action="">
+    <h1>Student Check In</h1>
+    <section class="zones">
+        <div class="blue-zone zone-box">
+            <img src="assets/img/Sadness.png" alt="Are you feeling tired, sick, bored, or sad?">
+        </div>
+        <div class="green-zone zone-box">
+            <img src="assets/img/joy.png" alt="Are you feeling joyful today?">
+        </div>
+        <div class="yellow-zone zone-box">
+            <img src="assets/img/yellow-zone.png" alt="Are you in the yellow zone?">
+        </div>
+        <div class="red-zone zone-box">
+            <img src="assets/img/anger.png" alt="Are you in the red zone?">
+        </div>
+    </section>
+    <section class="form">
+    <form class = main-form action="">
         <label for="fname">First Name:</label>
         <input type="text" id="f-name" name="fname" placeholder="Enter First Name"><br><br>
         <label for="lname">Last Name:</label>
@@ -36,21 +51,7 @@
         </select> <br><br>
         <button>Check In</button>
     </form>
-    <section class="zones">
-        <div class="blue-zone zone-box">
-            <img src="assets/img/Sadness.png" alt="Are you feeling tired, sick, bored, or sad?">
-        </div>
-        <div class="green-zone zone-box">
-
-        </div>
-        <div class="red-zone zone-box">
-
-        </div>
-        <div class="yellow-zone zone-box">
-
-        </div>
-    </section>
-
+</section>
     <script src="../Zones Of Regulation/assets/script.js"></script>
 </body>
 </html>
